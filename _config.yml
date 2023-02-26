@@ -6,6 +6,11 @@ lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 
+#https://stackoverflow.com/questions/69023928/github-pages-with-jekyll-not-showing-images-in-md-post
+url: 'https://jkafka.github.io/' # your main domain
+baseurl: '' # if you're using custom domain keep this blank example: baseurl: ''
+
+
 # Layout
 
 show_excerpts: false        # show article excerpts on the home page
