@@ -1,9 +1,10 @@
 ---
-title: "Welcome to Jekyll"
+title: "Dissertation manuscript published"
 layout: post
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+I'm excited to share that the first manuscript from my dissertation has officially been published in the journal *Injury Prevention.* This manuscript describes the development and validation of a supervised machine learning tool that detects mention of intimate 
+
 
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
