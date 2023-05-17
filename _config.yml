@@ -23,7 +23,7 @@ minimal: false             # use a dark header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "About", file: "index.md"}
   - {title: "Research", url: "https://www.ncbi.nlm.nih.gov/myncbi/julie.kafka.1/bibliography/public/"}
-  - {title: "IPV-related suicide", file: "Dissertation_Markdown_2023_05_17.md"}
+  - {title: "IPV-related suicide", file: "Dissertation_Markdown_2023_05_17.html"}
   - {title: "CV", url: "/cv.pdf"}
  
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
