@@ -1505,14 +1505,16 @@ NVDRS</h1>
 National Violent Death Reporting System (NVDRS). The IPV Classifier is
 designed to detect whether suicide cases in NVDRS were precipitated by
 intimate partner violence (IPV) or not (yes/no), using textual
-information from NVDRS death narratives.</p>
+information from NVDRS death narratives. A full description of the
+methods used to train and test this instrument are available <a href="https://injuryprevention.bmj.com/content/29/2/134.abstract">here</a>.</p>
 <p>All you need to run the IPV Classifier is:</p>
 <ul>
 <li>Your copy of the NVDRS RAD file</li>
 <li>The Concept dataset (Rdata file)</li>
 <li>The IPV Classifier model itself (Rdata file)</li>
 </ul>
-<p>The steps covered in this demo include:</p>
+<p>The last two files are available to download from my <a href="https://github.com/jkafka/IPV-suicide">Github page</a> for this
+project. The steps covered in this demo include:</p>
 <ol style="list-style-type: decimal">
 <li>Load data<br />
 </li>
@@ -1559,7 +1561,7 @@ nvdrs &lt;- nvdrs %&gt;% mutate(id = paste(siteid, incidentyear, incidentid, per
 events. These are isolated suicide cases that were unconnected to other
 violent deaths. In other words, the classifier should NOT be applied to
 homicide-suicides (you can use the existing IPV variable in NVDRS for
-those cases, here is a nice [resource] (<a href="https://onlinelibrary.wiley.com/doi/10.1111/1556-4029.12887" class="uri">https://onlinelibrary.wiley.com/doi/10.1111/1556-4029.12887</a>)
+those cases, here is a nice <a href="https://onlinelibrary.wiley.com/doi/10.1111/1556-4029.12887">resource</a>
 on that).</p>
 <p>So let’s extract all single suicides before moving forward.</p>
 <pre class="r"><code>#pull out single suicide events 
